@@ -21,9 +21,9 @@ class MacExamplesForm extends FormBase {
    * {@inheritdoc}
    */
   public function buildForm(array $form, FormStateInterface $form_state) {
-    $form['caja_de_texto_edison'] = array(
+    $form['caja_de_texto_1'] = array(
       '#type' => 'textfield',
-      '#title' => 'Caja de texto 1',
+      '#title' => 'Caja de texto Edison',
     );
     
     $form['area_de_texto_1'] = array(
